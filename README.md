@@ -1,2 +1,2 @@
 # ProjectKTMT
-Project Thiet Ke KTMT (2021)
+Project thiet ke KTMT (2021)
