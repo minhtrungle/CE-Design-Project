@@ -1,2 +1,4 @@
 # ProjectKTMT
-Project thiet ke KTMT (2021)
+#Project Computer Engineering Design
+
+#Intrusion alert via call and text message 
