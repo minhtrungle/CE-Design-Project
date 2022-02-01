@@ -83,6 +83,15 @@ a. Phần cứng
 - Nguồn Power Adaptor AC-DC 5V 2A
 
 b. Modul sim 900A
+- Giao tiếp Module Sim 900A với Esp8266 để thực hiện chức năng call/sms
+
++ Đấu dây ST của Module Sim 900A với dây D1 của Esp8266
+
++ Đấu dây SR của Module Sim 900A với dây D2 của Esp8266
+
++ Đấu dây G của Module Sim 900A với dây GND của Esp8266
+
++ Cấp nguồn 5V cho Modul Sim 900A
 
 -	Hàm cấu hình cho Module Sim 900A sau đó lưu những thông tin đã có vào bộ nhớ EEPROM
 
