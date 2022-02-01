@@ -35,29 +35,19 @@
 
 ![image](https://user-images.githubusercontent.com/59023235/151993601-a58b6d84-42da-4280-8995-60d0636b18c5.png)
                                      
-Hình 1: Sơ đồ hoạt động của từng phần:
 
 -	Webserver thiết lập wifi, số điện thoại và nội dung tin nhắn, chế độ hoạt động modul sim, chế độ bật tắt cảnh báo,…
 
 ![image](https://user-images.githubusercontent.com/59023235/151993646-2f95bcda-5d63-416c-92d6-59cd8f9e198b.png)
 
-                                    
-Hình 2: Thiết lập Webserver
-
 -	Gửi tin nhắn cho Modul Sim 900A để tắt hoặc bật cảnh báo:
 
 ![image](https://user-images.githubusercontent.com/59023235/151993671-86f6112e-9c4d-4179-93f8-c38f068970f8.png)
-
-                                      
-Hình 3: Gửi tin nhắn modul sim
-
+                                     
 -	Chương trình cảnh báo khi có đột nhâp:
 
 ![image](https://user-images.githubusercontent.com/59023235/151993739-17722901-83b6-4c92-b66a-59d0686f5733.png)
-
-  
-Hình 4: Chương trình cảnh báo
-
+ 
 4. Sơ đồ tổng quan hệ thống
 
 ![image](https://user-images.githubusercontent.com/59023235/151993826-761349fb-9f3a-42e6-b5a4-024d4d4718ca.png)
