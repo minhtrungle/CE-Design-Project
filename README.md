@@ -141,6 +141,7 @@ WebSocketsServer webSocket = WebSocketsServer(81);
 
 ![image](https://user-images.githubusercontent.com/59023235/152005226-2543a9e5-bd63-41b1-b057-98fd6274d752.png)
 
+![image](https://user-images.githubusercontent.com/59023235/152008890-c46479bf-907d-45b3-8374-84ea444d209b.png)
 
 e . Bộ nhớ EEPROM trong ESP8266
 
