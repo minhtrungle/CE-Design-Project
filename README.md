@@ -33,7 +33,7 @@
 
 -	Sơ đồ hoạt động của từng phần:
 
-                ![image](https://user-images.githubusercontent.com/59023235/151993601-a58b6d84-42da-4280-8995-60d0636b18c5.png)
+![image](https://user-images.githubusercontent.com/59023235/151993601-a58b6d84-42da-4280-8995-60d0636b18c5.png)
                                      
 Hình 1: Sơ đồ hoạt động của từng phần:
 
