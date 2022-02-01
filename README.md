@@ -122,6 +122,7 @@ c.1 Sử dụng ESP8266 là 1 điểm Access Point
 c.2 Sử dụng ESP8266 là Webserver
 
 ![image](https://user-images.githubusercontent.com/59023235/151996371-efac3d01-6d8f-4bfa-a20f-1e7c824019b6.png)
+
 d. ESP8266 làm WebSocket Server
 
 - Khai báo các thư viện cần thiết:
