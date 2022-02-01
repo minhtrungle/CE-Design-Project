@@ -82,21 +82,57 @@ a. Phần cứng
 
 - Nguồn Power Adaptor AC-DC 5V 2A
 
-b. Hướng dẫn sử dụng ESP8266
+b. Modul sim 900A
+
+-	Hàm cấu hình cho Module Sim 900A sau đó lưu những thông tin đã có vào bộ nhớ EEPROM
+
+![image](https://user-images.githubusercontent.com/59023235/152003196-87d7b0fc-a56b-422c-81e5-baae6f3f7127.png)
+
+-	Hàm dùng để setup cho Module Sim 900A
+
+![image](https://user-images.githubusercontent.com/59023235/152003620-781934e7-bc41-401c-8780-6456a08e9820.png)
+
+-	Hàm dùng để Module gọi về số điện thoại 
+
+![image](https://user-images.githubusercontent.com/59023235/152003714-861f3cb1-a6e4-4a4f-9232-95196c2b0d4f.png)
+
+-	Hàm dùng để Module Sim 900A thực hiện tin nhắn đến số điện thoại
+
+![image](https://user-images.githubusercontent.com/59023235/152003836-077ffe21-ecb4-4b3b-afad-9fd90b5441d1.png)
+
+c. Hướng dẫn sử dụng ESP8266
 
   Trong project này thì ESP8266 vừa là 1 điểm Access Point vừa là 1 Webserver có địa chỉ ip là 192.168.1.1.
 
-b.1 Sử dụng ESP8266 là 1 điểm Access Point
+c.1 Sử dụng ESP8266 là 1 điểm Access Point
 
 ![image](https://user-images.githubusercontent.com/59023235/151996242-21175e8f-a541-4c61-b6a0-ef1cb17826a1.png)
 
 ![image](https://user-images.githubusercontent.com/59023235/151996251-a3fe7b01-4854-470e-a6a4-19e544494b7f.png)
 
-b.2 Sử dụng ESP8266 là Webserver
+c.2 Sử dụng ESP8266 là Webserver
 
 ![image](https://user-images.githubusercontent.com/59023235/151996371-efac3d01-6d8f-4bfa-a20f-1e7c824019b6.png)
+d. ESP8266 làm WebSocket Server
 
-c. Bộ nhớ EEPROM trong ESP8266
+- Khai báo các thư viện cần thiết:
+
+![image](https://user-images.githubusercontent.com/59023235/152004497-fa255fd2-be3e-461a-a502-54d69f8eedc1.png)
+
+- Để sử dụng thư viện WebSocketsServer ta cần khởi tạo một đối tượng tên là là webSocket chạy trên port 81.
+
+WebSocketsServer webSocket = WebSocketsServer(81);
+
+-	Khai báo hàm dùng để khởi tạo và xử lý các sự kiện của WebSocket 
+
+![image](https://user-images.githubusercontent.com/59023235/152005141-dbf5e86f-7090-405d-92a3-716d7e344bbd.png)
+
+- Cuối cùng chúng ta cần gọi phương thức webSocket.loop() trong vòng lặp chính để kiểm tra khi có sự kiện WebSocket xảy ra.
+
+![image](https://user-images.githubusercontent.com/59023235/152005226-2543a9e5-bd63-41b1-b057-98fd6274d752.png)
+
+
+e . Bộ nhớ EEPROM trong ESP8266
 
 ![image](https://user-images.githubusercontent.com/59023235/151996932-ac81efa5-62a1-4452-a2e3-da23ea63f9f2.png)
 
@@ -116,5 +152,16 @@ c. Bộ nhớ EEPROM trong ESP8266
 
 ![image](https://user-images.githubusercontent.com/59023235/151997360-3610fd8c-7bbb-459b-9a35-a3baa682c008.png)
 
+-	Tài liệu về ESP8266
+
+esp8266-technical_reference_en.pdf (espressif.com)
+https://getblocky.com/courses/p2-ket-noi-internet/lessons/che-do-wifi-access-point/
+
+-	Tài liệu về Module Sim900A
+
+https://mlab.vn/index.php?_route_=huong-dan-su-dung-module-sim900.html
+-	Tài liệu về Websocket
+
+https://getblocky.com/courses/p2-ket-noi-internet/lessons/websocket-la-gi/
 
 
